@@ -263,7 +263,8 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (2.6.0)
-    rexml (3.2.5)
+    rexml (3.3.3)
+      strscan
     rouge (3.26.0)
     rubocop (1.36.0)
       json (~> 2.3)
@@ -291,6 +292,7 @@ GEM
       faraday (>= 0.17.3, < 3)
     simpleidn (0.2.1)
       unf (~> 0.1.4)
+    strscan (3.1.0)
     terminal-table (1.6.0)
     thread_safe (0.3.6)
     typhoeus (1.4.0)
